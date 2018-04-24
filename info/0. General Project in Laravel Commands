@@ -104,4 +104,12 @@ php artisan make:model Categoria -m
 6. Preparar Rutas
   En el "app/routes.php"
 
+7. Generar Controlador
+  En la terminal utilizamos una notacion Pascal
+
+  Iniciando Con Mayuscula y la siguiente palabra iniciar con Mayuscula
+
+  php artisan make:controller ProductoController
+
+8. Enrutar el controlador o hacer que nos devuelva algo
   

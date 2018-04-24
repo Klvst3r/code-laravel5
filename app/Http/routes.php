@@ -26,3 +26,5 @@ Route::get('usuario/nuevo',function(){
 Route::get('usuario/{nombre}',function($usuario){
 	return "Hola: " . $usuario ;
 });
+
+Route::resource("producto", "ProductoController");
