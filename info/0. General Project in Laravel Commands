@@ -100,3 +100,8 @@ Hacemos
 php artisan make:model Categoria -m
 
 -m Le dira a laravel que cree la migracion tambien a la vez que vamos generando el modelo.
+
+6. Preparar Rutas
+  En el "app/routes.php"
+
+  
