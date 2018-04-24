@@ -115,3 +115,11 @@ php artisan make:model Categoria -m
   En app/routes.php
 
     Route::resource("producto", "ProductoController");
+
+9. Manejando Vistas
+
+  En el archivo de rutas, enrutar vista
+
+  Route::get('pagina/{numero}',function($numero){
+  	return view("pagina.index")->with("n", $numero);
+  });
