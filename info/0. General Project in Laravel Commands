@@ -112,4 +112,6 @@ php artisan make:model Categoria -m
   php artisan make:controller ProductoController
 
 8. Enrutar el controlador o hacer que nos devuelva algo
-  
+  En app/routes.php
+
+    Route::resource("producto", "ProductoController");

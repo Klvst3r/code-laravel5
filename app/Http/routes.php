@@ -15,7 +15,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get("pagina",function(){
+/*Route::get("pagina",function(){
 	echo "Hola Klvst3r";
 });
 
@@ -27,4 +27,12 @@ Route::get('usuario/{nombre}',function($usuario){
 	return "Hola: " . $usuario ;
 });
 
-Route::resource("producto", "ProductoController");
+Route::resource("producto", "ProductoController");*/
+
+/*Route::get('pagina',function(){
+	return view("pagina.index");
+});*/
+
+Route::get('pagina/{numero}',function($numero){
+	return view("pagina.index")->with("n", $numero);
+});
