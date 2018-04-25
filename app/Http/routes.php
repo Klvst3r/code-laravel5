@@ -33,6 +33,8 @@ Route::resource("producto", "ProductoController");*/
 	return view("pagina.index");
 });*/
 
-Route::get('pagina/{numero}',function($numero){
+/*Route::get('pagina/{numero}',function($numero){
 	return view("pagina.index")->with("n", $numero);
-});
+});*/
+
+Route::controller("producto","ProductoController");
